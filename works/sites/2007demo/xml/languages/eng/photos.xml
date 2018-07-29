@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="photos">
+	<serie id="01_01" category="celebrities" thumbPath="img/thumbs/j1.jpg">
+			<title><![CDATA[圆明园风景]]></title>
+			<description><![CDATA[在圆明园拍照的！]]></description>
+			<client><![CDATA[]]></client>
+			<date><![CDATA[2007/10]]></date>
+			<elements>
+				<element id="01_01_01" path="img/j11.jpg">
+				</element>
+				<element id="01_01_01" path="img/j12.jpg">
+				</element>
+				
+			</elements>
+	</serie>
+	<serie id="01_01" category="commercial" thumbPath="img/thumbs/j0.jpg">
+			<title><![CDATA[大学兄弟]]></title>
+			<description><![CDATA[上大学的时候，在校园里和兄弟们拍照的，呵呵，一个美好的回忆，虽然现在都不见面，也不怎么联系，但是我会时常的想念的，牵挂思念，那个美好的时光！]]></description>
+			<client><![CDATA[]]></client>
+			<date><![CDATA[2004]]></date>
+			<elements>
+				<element id="01_01_01" path="img/j00.jpg">
+				</element>
+				<element id="01_01_01" path="img/j000.jpg">
+				</element>
+				
+			</elements>
+	</serie>
+</page>

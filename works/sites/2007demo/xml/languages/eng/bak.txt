@@ -1,0 +1,14 @@
+<news id="01" date="12.03.2007" link="celebrities" category="photo" isTopNews="false">
+			<headline><![CDATA[新闻测试２]]></headline>
+			<copy><![CDATA[The SINAR was already in use for the photoshooting of "Schwesterherz". "Schwesterherz" is a formation of three sisters who are aiming to hit the charts. We also created a musicvideo and an EPK for that promisingly group. More info will be added soon. And last but not least, we are currently setting up the fotoshooting for Nic Chagall and WIPPENBERG .Look at photo/celebrities.]]></copy>
+		</news>
+		
+		<news id="01" date="24.02.2007" link="" category="info" isTopNews="false">
+			<headline><![CDATA[新闻测试３]]></headline>
+			<copy><![CDATA[We were assigned to do the advertising for the new KLETT-Worldatlas, a film in HDTV standard to be shown at the fair and for promotion purposes. This clip will be released soon. By the way: Our Clip for MoonDust is on big Rotation at VIVA/Germany]]></copy>
+		</news>
+			
+		<news id="01" date="17.01.2007" link="cCommercial" category="clip" isTopNews="false">
+			<headline><![CDATA[新闻测试９]]></headline>
+			<copy><![CDATA[Nikolaj Georgiew produced it the last month. Go to the clips,commercial section, and see the ffn-film.]]></copy>
+		</news>

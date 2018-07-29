@@ -1,0 +1,77 @@
+@import url(../player.css);
+
+body,td,th,marquee {
+	font-family: Tahoma;
+	font-size: 8pt;
+	color: #FF7119;
+	cursor:default;
+}
+
+body {
+	background-color: buttonface;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	;
+}
+
+img {
+	border:0px;
+}
+
+.hand {
+	cursor:hand;
+}
+
+.shadow {
+	width:100%;
+	filter:progid:DXImageTransform.Microsoft.dropShadow(Color=234C76,offX=1,offY=1,positive=true);
+}
+
+.bold { font-weight: bold; }
+.padd_t2 { padding-top: 2px; }
+.padd_t3 { padding-top: 3px; }
+.padd_r3 { padding-right: 3px; } 
+.padd_l3 { padding-left: 3px; }
+
+#playlist {
+	width:100%;
+	height:expression(document.body.scrollHeight - pl_header.height - pl_footer.height);
+	overflow:scroll;
+	overflow-x:hidden;
+	background-color:#FFFFFF;
+}
+
+#playlist td {
+	color:#284F80;
+	border-bottom:solid 1px #F0F0F1;
+	height:25px;
+}
+
+#playlist #no {
+	font-weight:bold;
+	width:30px;
+	padding-right:5px;
+}
+
+#playlist #button {
+	width:100px;
+	padding-right:10px;
+}
+
+#playlist a:link {
+	color: #284F80;
+	text-decoration: none;
+}
+#playlist a:visited {
+	text-decoration: none;
+	color: #284F80;
+}
+#playlist a:hover {
+	text-decoration: none;
+	color: #284F80;
+}
+#playlist a:active {
+	text-decoration: none;
+	color: #284F80;
+}

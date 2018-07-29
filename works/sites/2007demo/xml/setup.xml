@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<site>
+
+	<languages id="lang">
+		<language id="eng" url="xml/languages/eng/news.xml" />
+        
+	</languages>
+	
+	<nameSharedObject></nameSharedObject>
+	
+	<statisticURL id="stats" url="xml/statistic.xml" />
+	
+	<pathToServer id="pathToServer"></pathToServer>
+	
+	<navigation>
+		
+	</navigation>
+	
+
+</site>

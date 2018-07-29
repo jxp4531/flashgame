@@ -1,0 +1,9 @@
+#wmp {
+	position:absolute;
+	left:-1000px;
+	top:-1000px;
+}
+
+#volumeSlider {
+	display:none;
+}

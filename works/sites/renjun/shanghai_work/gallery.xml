@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleviewergallery maxImageWidth="720" maxImageHeight="480" textColor="0xFFFFFF" frameColor="0xFFFFFF" frameWidth="20" stagePadding="40" navPadding="40" thumbnailColumns="3" thumbnailRows="3" navPosition="left" vAlign="center" hAlign="center" title="任军上海个展新作" enableRightClickOpen="true" backgroundImagePath="" imagePath="" thumbPath="">
+<image>
+	<filename>r-3.jpg</filename>
+	<caption><![CDATA[r-3]]></caption>	
+</image>
+<image>
+	<filename>大盘震荡.jpg</filename>
+	<caption>大盘震荡</caption>	
+</image>
+<image>
+	<filename>关系暧昧.jpg</filename>
+	<caption>关系暧昧</caption>	
+</image>
+<image>
+	<filename>后生可畏.jpg</filename>
+	<caption>后生可畏</caption>	
+</image>
+<image>
+	<filename>互不干涉.jpg</filename>
+	<caption>互不干涉</caption>	
+</image>
+<image>
+	<filename>目标一致.jpg</filename>
+	<caption>目标一致</caption>	
+</image>
+<image>
+	<filename>视频约会.jpg</filename>
+	<caption>视频约会</caption>	
+</image>
+<image>
+	<filename>四十不惑.jpg</filename>
+	<caption>四十不惑</caption>	
+</image>
+<image>
+	<filename>中流砥柱.jpg</filename>
+	<caption>中流砥柱</caption>	
+</image>
+</simpleviewergallery>

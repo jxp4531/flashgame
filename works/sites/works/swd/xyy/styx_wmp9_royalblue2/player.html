@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>轩音辕墨</title>
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="skin.css">
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="slider.css">
+</head>
+<body scroll="no" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+<object id="wmp" classid="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6">
+</object>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="table_tab" alwaysview="false">
+		<tr>
+				<td align="center" background="images/shade_bg.gif"><img src="images/shade_open.gif" width="99" height="8" border="0" class="hand" onclick="toggleTab();"></td>
+		</tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" id="table_player">
+		<tr>
+				<td width="25" background="images/bg1.gif"><img src="images/logo.gif" width="25" height="30" onclick="about();"></td>
+				<td width="25" background="images/bg1.gif"><img src="images/btn_open.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_open','','images/btn_open_c.gif',1)" alt="开启轩辕剑播放清单" name="img_open" id="img_open" width="25" height="30" border="0" class="hand" onclick="openPlaylist();"></td>
+				<td width="23" background="images/bg1.gif"><img src="images/btn_play.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_play','','images/btn_play_c.gif',1)" alt="播放" name="img_play" width="23" height="30" border="0" class="hand" onclick="aPlay();"><img src="images/btn_pause.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_pause','','images/btn_pause_c.gif',1)" alt="暂停" name="img_pause" width="23" height="30" border="0" style="display:none;" class="hand" onclick="aPause();"></td>
+				<td width="21" background="images/bg1.gif"><img src="images/btn_stop.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_stop','','images/btn_stop_c.gif',1)" alt="停止" name="img_stop" width="21" height="30" border="0" class="hand" onclick="aStop();"></td>
+				<td width="21" background="images/bg1.gif"><img src="images/btn_prev.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_prev','','images/btn_prev_c.gif',1)" alt="上一曲" name="img_prev" width="21" height="30" border="0" class="hand" onclick="aPrev();"></td>
+				<td width="21" background="images/bg1.gif"><img src="images/btn_next.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_next','','images/btn_next_c.gif',1)" alt="下一曲" name="img_next" width="21" height="30" border="0" class="hand" onclick="aNext();"></td>
+				<td background="images/bg1.gif"><table width="100%"  border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
+								<tr>
+										<td width="11"><img src="images/lcd_left.gif" width="11" height="30"></td>
+										<td width="50" align="center" nowrap background="images/lcd_bg.gif" class="padd_t2" title="时间显示模式 (点击进行选择不同模式)"><div id="text_duration" name="text_duration" class="shadow bold" onclick="setDurationType();">&nbsp;</div></td>
+										<td nowrap background="images/lcd_bg.gif" class="padd_t2"><div id="text_event" name="text_event" class="shadow bold"></div><div id="text_title" name="text_title" class="shadow bold">&nbsp;</div></td>
+										<td width="60" align="right" nowrap background="images/lcd_bg.gif" class="padd_t2"><div id="text_bitrate" name="text_bitrate" class="shadow bold">&nbsp;</div></td>
+										<td width="11"><img src="images/lcd_right.gif" width="10" height="30"></td>
+								</tr>
+						</table></td>
+				<td width="65" background="images/bg1.gif"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+								<tr>
+										<td width="11"><img src="images/lcd_left.gif" width="11" height="30"></td>
+										<td align="center" background="images/lcd_bg.gif"><img src="images/btn_shuffle_off.gif" alt="随机播放模式" name="img_shuffle" width="14" height="14" border="0" align="absmiddle" class="hand" onclick="setShuffle();"></td>
+										<td align="center" background="images/lcd_bg.gif"><img src="images/btn_loop_on.gif" alt="循环播放模式" name="img_loop" width="14" height="14" align="absmiddle" class="hand" onclick="setLoop();"></td>
+										<td width="11"><img src="images/lcd_right.gif" width="10" height="30"></td>
+								</tr>
+						</table></td>
+				<td width="21" background="images/bg1.gif"><img src="images/btn_rew.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_rew','','images/btn_rew_c.gif',1)" alt="快退" name="img_rew" width="21" height="30" border="0" class="hand" onclick="aREW();"></td>
+				<td width="21" background="images/bg1.gif"><img src="images/btn_ff.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_ff','','images/btn_ff_c.gif',1)" alt="快进" name="img_ff" width="21" height="30" border="0" class="hand" onclick="aFF();"></td>
+				<td width="21" background="images/bg1.gif"><img src="images/btn_mute_off.gif"onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_mute_off','','images/btn_mute_off_c.gif',1)" alt="静音" name="img_mute_off" width="21" height="30" border="0" class="hand" onclick="setMute();"><img src="images/btn_mute_on.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_mute_on','','images/btn_mute_on_c.gif',1)" alt="静音" name="img_mute_on" width="21" height="30" border="0" class="hand" onclick="setMute();" style="display:none;"></td>
+				<td width="60" align="center" background="images/slider_bg.gif">
+						<div class="slider" id="volume" tabIndex="1"><input class="slider-input" id="volumeSlider"></div>
+				</td>
+				<td width="21" background="images/bg1.gif"><img src="images/btn_shade.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_hide','','images/btn_shade_c.gif',1)" alt="隐藏播放器" name="img_hide" width="21" height="30" border="0" class="hand" onclick="toggleTab();"></td>
+		</tr>
+</table>
+<script language="javascript" type="text/javascript" src="slider.js"></script>
+<script language="javascript" type="text/javascript" src="skin.js?<?=time()?>"></script>
+</body>
+</html>

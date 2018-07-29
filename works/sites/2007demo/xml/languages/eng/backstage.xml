@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="backstage">
+<serie id="01_01" category="makingOf" thumbPath="img/thumbs/j3.jpg">
+		<artist><![CDATA[大宇]]></artist>
+		<title><![CDATA[汉之云]]></title>
+		<description><![CDATA[轩辕剑外传汉之云]]></description>
+		<client><![CDATA[ ]]></client>
+		<date><![CDATA[]]></date>
+		<elements>
+			<element id="01_01_01" path="img/backstageclips/h0.jpg"><![CDATA[1 ]]>
+			</element>
+			<element id="01_01_01" path="img/backstageclips/h1.jpg"><![CDATA[女主角之一 ]]>
+			</element>
+			<element id="01_01_01" path="img/backstageclips/h2.jpg"><![CDATA[海报 ]]>
+			</element>
+		</elements>
+	</serie>
+	<serie id="01_01" category="makingOf" thumbPath="img/thumbs/j3.jpg">
+		<artist><![CDATA[大宇]]></artist>
+		<title><![CDATA[仙剑电视片段]]></title>
+		<description><![CDATA[仙剑电视片段]]></description>
+		<client><![CDATA[ ]]></client>
+		<date><![CDATA[]]></date>
+		<elements>
+			<element id="01_01_01" path="http://v4.ku6.com/2006/mv/200756/1172473368y3smj.flv">
+			</element>
+		</elements>
+	</serie>
+	<serie id="01_01" category="makingOf" thumbPath="http://i99.ku6.com/200712/13/11/mtpTKiej-5xTHdMi/4.jpg">
+		<artist><![CDATA[天龙八部]]></artist>
+		<title><![CDATA[天龙八部网络游戏]]></title>
+		<description><![CDATA[天龙八部网络游戏宣传动画 ]]></description>
+		<client><![CDATA[搜狐 ]]></client>
+		<date><![CDATA[]]></date>
+		<elements>
+			<element id="01_01_01" path="http://v183.ku6.com/166/170/xQ87MzDfRQSPaFLvIKytRg.flv">
+			</element>
+		</elements>
+	</serie>
+	<serie id="01_01" category="press" thumbPath="http://i99.ku6.com/200712/16/10/kAlh3EnqeIum8AdQ/1.jpg">
+		<artist><![CDATA[大宇]]></artist>
+		<title><![CDATA[仙剑电视片段]]></title>
+		<description><![CDATA[仙剑电视片段]]></description>
+		<client><![CDATA[ ]]></client>
+		<date><![CDATA[]]></date>
+		<elements>
+			<element id="01_01_01" path="http://v4.ku6.com/2006/mv/200756/1172477010x1lle.flv">
+			</element>
+		</elements>
+	</serie>
+	
+	<serie id="01_01" category="press" thumbPath="http://i99.ku6.com/200709/28/16/BBcqVPXvwrl8TZgG/7.jpg">
+		<artist><![CDATA[]]></artist>
+		<title><![CDATA[降龙十八掌]]></title>
+		<description><![CDATA[南帝北丐降龙十八掌,很早的电视剧，真经典，现在回忆一下真是够味道，虽然现在的电脑合成特效很好了，但是感觉以前的还是挺真的！现在期盼的是胡歌的射雕了~]]></description>
+		<client><![CDATA[ ]]></client>
+		<date><![CDATA[]]></date>
+		<elements>
+			<element id="01_01_01" path="http://v103.ku6.com/200705/20/12/tjpIOAsXsXOpZxOx.flv">
+			</element>
+		</elements>
+	</serie>
+</page>
+

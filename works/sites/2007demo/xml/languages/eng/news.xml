@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="news">
+
+	<news>
+		<news id="01" date="2007/12/15" link="music" category="clip" isTopNews="true">
+			<headline><![CDATA[天山剑阁正式改版！]]></headline>
+			<copy><![CDATA[如题，已经记不清楚这个是第几次换了，反正就是觉得喜欢就换了，以前的版本也没什么必要留住，随时关注更新中。。。。。]]></copy>
+		</news>
+		<news id="01" date="2007/12/15" link="celebrities" category="photo" isTopNews="false">
+			<headline><![CDATA[生活图片页面！]]></headline>
+			<copy><![CDATA[生活图片页面！]]></copy>
+		</news>
+		
+		<news id="01" date="2007/12/15" link="music" category="info" isTopNews="false">
+			<headline><![CDATA[音乐板块上线！]]></headline>
+			<copy><![CDATA[音乐板块上线！]]></copy>
+		</news>
+			
+		<news id="01" date="2007/12/15" link="about" category="clip" isTopNews="false">
+			<headline><![CDATA[关于我们！]]></headline>
+			<copy><![CDATA[关于我们！]]></copy>
+		</news>
+		
+		
+	</news>
+	
+	
+
+	<pageNews>
+		<pageNews id="home"><![CDATA[天山剑阁正式改版！]]></pageNews>
+		<pageNews id="news"><![CDATA[新闻页面说明！]]></pageNews>
+		<pageNews id="celebrities"><![CDATA[ 生活图片页面说明！]]></pageNews>
+		<pageNews id="commercial"><![CDATA[ 作品页面说明！]]></pageNews>
+		<pageNews id="music"><![CDATA[音乐页面说明！]]></pageNews>
+		<pageNews id="cCommercial"><![CDATA[恒远之好可怜！被关在里面一千年都出不来！后来进去看他，已是白发苍苍，生不如死！]]></pageNews>
+		<pageNews id="makingOf"><![CDATA[游戏视频！ ]]></pageNews>
+		<pageNews id="press"><![CDATA[其他视频！]]></pageNews>
+		<pageNews id="about"><![CDATA[关于我们！ ]]></pageNews>
+		<pageNews id="contact"><![CDATA[ 联系我们！]]></pageNews>
+		<pageNews id="links"><![CDATA[ 友情链接！]]></pageNews>
+		<pageNews id="clients"><![CDATA[客户！ ]]></pageNews>
+		<pageNews id="friends"><![CDATA[朋友！ ]]></pageNews>
+		<pageNews id="imprint"><![CDATA[鸣谢！ ]]></pageNews>
+		<pageNews id="newsletter"><![CDATA[联系我们！]]></pageNews>
+	</pageNews>
+	<homePhotos>
+		<photo path="img/home/t0.jpg" />
+		<photo path="img/home/t1.jpg" />
+	</homePhotos>
+</page>
+

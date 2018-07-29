@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<imglist>
+	<pic path="pic/01.jpg">pic/1.jpg</pic>
+	<pic path="pic/02.jpg">pic/2.jpg</pic>
+	<pic path="pic/03.jpg">pic/3.jpg</pic>
+	<pic path="pic/04.jpg">pic/4.jpg</pic>
+	<pic path="pic/05.jpg">pic/5.jpg</pic>
+	<pic path="pic/06.jpg">pic/6.jpg</pic>
+	
+	<pic path="pic/08.jpg">pic/8.jpg</pic>
+	<pic path="pic/09.jpg">pic/9.jpg</pic>
+	<pic path="pic/010.jpg">pic/10.jpg</pic>
+	<pic path="pic/011.jpg">pic/11.jpg</pic>
+	<pic path="pic/012.jpg">pic/12.jpg</pic>
+	
+</imglist>

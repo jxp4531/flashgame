@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>轩辕剑音乐播放清单</title>
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="skin.css">
+<script language="javascript" type="text/javascript" src="skin.js?<?=time()?>"></script>
+</head>
+<body onload="getPlaylist();" scroll="no" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+				<td height="30" background="images/bg2.gif" id="pl_header"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+										<td height="30" class="padd_l3"><table width="100%" border="0" cellpadding="0" cellspacing="0" style="table-layout:fixed;">
+														<tr>
+																<td width="11"><img src="images/lcd2_left.gif" width="11" height="30"></td>
+																<td nowrap background="images/lcd2_bg.gif" class="padd_t2 padd_l3 padding_r3"><div id="text_title" name="text_title" class="shadow bold">&nbsp;Playlist</div></td>
+																<td width="11"><img src="images/lcd2_right.gif" width="10" height="30"></td>
+														</tr>
+												</table></td>
+										<td width="20" class="padd_r3"><img src="images/btn2_close.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_close','','images/btn2_close_c.gif',1)" alt="关闭播放菜单" name="img_close" width="21" height="30" border="0" align="absmiddle" class="hand" onclick="window.close();"></td>
+								</tr>
+						</table></td>
+		</tr>
+		<tr>
+				<td valign="top"><div id="playlist"></div></td>
+		</tr>
+		<tr>
+				<td height="30" background="images/bg2.gif" id="pl_footer" class="padd_l3 padd_r3"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        		<tr>
+        				<td><img src="images/btn2_ml.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_ml','','images/btn2_ml_c.gif',1)" alt="打开播放器内容" name="img_ml" width="102" height="30" border="0" align="absmiddle" class="hand" onclick="openMediaLibrary();"><img src="images/btn2_reset.gif" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_reset','','images/btn2_reset_c.gif',1)" alt="重新设置播放器和播放清单内容" name="img_reset" width="62" height="30" border="0" align="absmiddle" class="hand" onclick="resetPlayer();"></td>
+        				<td width="20" align="right"><span class="padd_r3"><img src="images/btn2_close.gif" alt="关闭播放菜单" name="img_close1" width="21" height="30" border="0" align="absmiddle" class="hand" id="img_close1" onclick="window.close();" onMouseOver="MM_swapImage('img_close1','','images/btn2_close_c.gif',1)" onMouseOut="MM_swapImgRestore()"></span></td>
+        				</tr>
+        		</table>						</td>
+		</tr>
+</table>
+</body>
+</html>

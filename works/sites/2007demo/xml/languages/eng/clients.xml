@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="clients">
+	
+	<client url="http://www.v-noise.com" thumbPath="img/clients/vnoise.jpg">
+		<name><![CDATA[北京V-noise]]></name>
+	</client>	
+	
+</page>

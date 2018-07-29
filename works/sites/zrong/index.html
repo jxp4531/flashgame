@@ -1,0 +1,44 @@
+
+<html>
+<title>DEMO</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script type="text/javascript" src="flashobject.js"></script>
+<style type="text/css">
+<!--
+
+body {
+	background-image: url(images/background.jpg);
+	background-position: 100% 100%;
+	overflow: hidden;
+}
+
+
+-->
+</style>
+</head>
+<body marginwidth="0" marginheight="0" topmargin="0" leftmargin="0" onLoad="main.focus()">
+<script language="javascript">
+<!--
+moveTo (0,0);
+resizeTo (screen.availWidth,screen.availHeight);
+//-->
+</script>
+<div id="flashcontent">
+	
+	<b>您需要升级Flash播放器！</b><br/>本站需要至少 Adobe Flash 8 或更高. 请点击 <a href="http://www.adobe.com/products/flashplayer/">这里</a>下载.<br/></div>
+
+	
+	<script type="text/javascript">
+	// <![CDATA[
+		
+		var fo = new FlashObject("main.swf", "main", "100%", "100%", "8.0.22", "", true);
+		
+		fo.addParam("allowScriptAccess", "always");
+                fo.addParam("wmode", "transparent");
+		fo.write("flashcontent");		
+		
+		// ]]>
+	</script>
+
+</body>
+</html>

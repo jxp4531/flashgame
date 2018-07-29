@@ -1,0 +1,26 @@
+.dynamic-slider-control {
+	position:			relative;
+	cursor:				default;
+}
+
+.horizontal {
+	width:				50px;
+	height:				18px;
+}
+
+.dynamic-slider-control input {
+	display:	none;
+}
+
+.dynamic-slider-control .handle {
+	position:			absolute;
+	cursor:				default;
+	background-image:url(images/slider.gif);
+}
+
+.dynamic-slider-control.horizontal .handle div {
+	width:				9px;
+	height:				18px;
+}
+
+.dynamic-slider-control.horizontal .handle.hover {}

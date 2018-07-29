@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="clips">
+	
+	
+	<serie id="01_01" category="music" thumbPath="http://i99.ku6.com/200712/16/04/2iPseLDz7JVsmv8E/1.jpg">
+			<artist><![CDATA[周杰伦]]></artist>
+			<title><![CDATA[青花瓷]]></title>
+			<description><![CDATA[周杰伦青花瓷mv]]></description>
+			<client><![CDATA[]]></client>
+			<date><![CDATA[]]></date>
+			<elements>
+				<element id="01_01_01" path="http://vnc107.6rooms.com/89/e2/9f102106207095.flv">
+				</element>
+			</elements>
+	</serie>
+	<serie id="01_01" category="music" thumbPath="http://vimg6.youku.com/0100641F4647627B45FA4B006A0AE1FABF8642-A7DA-65FD-D4A9-0686882DC8B2">
+			<artist><![CDATA[周杰伦]]></artist>
+			<title><![CDATA[甜甜的]]></title>
+			<description><![CDATA[周杰伦甜甜的]]></description>
+			<client><![CDATA[]]></client>
+			<date><![CDATA[]]></date>
+			<elements>
+				<element id="01_01_01" path="http://vnc63.6rooms.com/2c/c7/44491166153934.flv">
+				</element>
+			</elements>
+	</serie>
+	<serie id="01_01" category="cCommercial" thumbPath="http://i1.i6.ku6.com/200706/13/14/1FeXoZkL-qNJQsQK/7.jpg">
+			<artist><![CDATA[大宇]]></artist>
+			<title><![CDATA[轩辕剑5]]></title>
+			<description><![CDATA[轩辕剑五开场]]></description>
+			<client><![CDATA[]]></client>
+			<date><![CDATA[2006]]></date>
+			<elements>
+				<element id="01_01_01" path="http://v106.ku6.com/200706/13/14/c4RyZxdZ0R5TyNyC.flv">
+				</element>
+			</elements>
+	</serie>
+	<serie id="01_01" category="cCommercial" thumbPath="http://i99.ku6.com/200712/07/17/UXpE_fhbRPqooMJH/1.jpg">
+			<artist><![CDATA[大宇]]></artist>
+			<title><![CDATA[仙剑4]]></title>
+			<description><![CDATA[仙剑奇侠传4开场音乐 ]]></description>
+			<client><![CDATA[大宇资讯]]></client>
+			<date><![CDATA[]]></date>
+			<elements>
+				<element id="01_01_01" path="http://imgd.zol.com.cn/small_flash_channel/av/7/6430.flv">
+				</element>
+			</elements>
+	</serie>
+</page>

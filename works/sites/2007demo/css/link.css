@@ -1,0 +1,14 @@
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:hover {  
+  color: #cc6600;
+  text-decoration: underline;
+}
+
+a:active {  
+  color: #E63C00;
+  text-decoration: underline;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta name="Keywords" content="" lang="ja" xml:lang="ja" />
+<meta name="Description" content="" lang="ja" xml:lang="ja" />
+<title>DEMO</title>
+
+<style type="text/css">
+<!--
+
+html, body
+{
+	background-color : #ffffff ;
+	margin : 0 ;
+	padding : 0 ;
+    overflow: hidden;
+}
+
+body
+{
+	background : #fff ;
+	position : absolute ;
+	width : 100% ;
+	height : 100% ;
+}
+
+
+-->
+</style>
+
+<script type="text/javascript" src="./common/script/dhtml-lib.js"></script>
+<script type="text/javascript" src="./common/script/browserCheck.js"></script>
+<script type="text/vbscript" src="./common/script/flashCheck.vbs"></script>
+<script type="text/javascript" src="./common/script/openWindow.js"></script>
+<script type="text/javascript" src="./common/script/flashCheck.js"></script>
+
+<script type="text/javascript">
+<!--
+
+var entry = new Array( ) ;
+var hash = new Array( ) ;
+var init_str = "" ;
+window.focus( ) ;
+
+function openPrivacyPolicy( )
+{
+	var nWidth = 480 ;
+	var nHeight = Math.min( screen.availHeight, 600 ) ;
+	openWindow( 'privacy.html','privacy',0,0,nWidth,nHeight,'no','yes','no','no','no','yes','no','no','no' ) ;
+}
+
+function checkQuery( )
+{
+	var query = location.hash.substring( 1 ) ;
+	var pairs = query.split( '&' ) ;
+	var pos   = '' ;
+	var name  = '' ;
+	var value = '' ;
+
+	if ( ! query ) return ;
+
+	for ( var i=0; i<pairs.length; i++ )
+	{
+		pos   = pairs[i].indexOf( '=' ) ;
+		name  = pairs[i].substring( 0,pos ) ;
+		value = pairs[i].substring( pos+1 ) ;
+
+		hash[ name ] = unescape( value ) ;
+	}
+
+	setStr( ) ;
+}
+
+function locationReset( )
+{
+	// location.protocol + location.hostname + location.pathname + 
+	location.href = "#" ;
+	document.title = "DEMO" ;
+}
+
+function setStr( )
+{
+	var count = 0 ;
+
+	for ( var i in hash )
+	{
+		if ( count++ > 0 )
+		{
+			init_str += "," ;
+		}
+
+		init_str += i + "=" + hash[ i ] ;
+	}
+
+	setTimeout( "locationReset( )", 50 ) ;
+//	locationReset( ) ;
+}
+
+checkQuery( ) ;
+
+// http://adomas.org/javascript-mouse-wheel/
+function wheel( event )
+{
+	var delta = 0 ;
+	if ( !event ) event = window.event ;
+	if ( event.wheelDelta )
+	{
+		delta = event.wheelDelta/120 ; 
+		if (window.opera) delta = -delta ;
+	}
+	else if ( event.detail )
+	{
+		delta = -event.detail/3 ;
+	}
+
+	if ( delta )
+	{
+		getSwfObj( "externalInterface" ).handleScrollEvent( delta ) ;
+	}
+}
+
+function getSwfObj( swfName )
+{
+	if ( navigator.appName.indexOf("Microsoft") != -1 )
+	{
+		return window[ swfName ] ;
+	}else
+	{
+		return document[ swfName ] ;
+	}
+}
+
+if ( window.addEventListener )
+{
+	window.addEventListener( 'DOMMouseScroll', wheel, false ) ;
+}
+
+window.onmousewheel = document.onmousewheel = wheel ;
+
+// new FlashDispatcher( requestVersion, swfFile, altImage, width, height, bgColor, FlashVars, [JumpURL,JumpTarget] )
+entry[ 0 ] = new FlashDispatcher( 8, 'main.swf', '', '100%', '100%', '#ffffff', init_str, '' ) ;
+
+// -->
+</script>
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+<!--
+
+entry[ 0 ].writeContents( ) ;
+
+// -->
+</script>
+
+</body>
+</html>
